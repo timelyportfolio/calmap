@@ -1,0 +1,6 @@
+dependencies:
+  - name: cal-heatmap
+    version: 4.0.0
+    src: htmlwidgets/lib/cal-heatmap
+    script: cal-heatmap.min.js
+    stylesheet: cal-heatmap.css
