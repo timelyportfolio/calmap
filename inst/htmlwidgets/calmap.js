@@ -44,7 +44,7 @@ HTMLWidgets.widget({
             // set itemSelector to be el
             newx.itemSelector = this;
             // set start to beginning of the year
-            newx.start = d3.timeParse("%Y-%m-%d")(d + "-01" + "-01").getTime() / 1000;
+            newx.start = d3.timeParse("%Y-%m-%d")(d + "-01" + "-01").getTime();
             // filter data for this year
             newx.data = {};
             d3.entries(x.data).filter(function(val) {
